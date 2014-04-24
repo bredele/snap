@@ -8,7 +8,7 @@ snap
 
 with [component](http://github.com/component/component):
 
-	$ component install snap
+	$ component install bredele/snap
 
 ## Usage
 

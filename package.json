@@ -1,7 +1,7 @@
 {
-  "name": "screen",
+  "name": "snap",
   "version": "0.0.0",
-  "description": "Webcam screenshot",
+  "description": "Dom snapshot",
   "main": "index.js",
   "directories": {
     "test": "test"
@@ -11,18 +11,18 @@
   },
   "repository": {
     "type": "git",
-    "url": "git://github.com/bredele/screen.git"
+    "url": "git://github.com/bredele/snap.git"
   },
   "keywords": [
     "webrtc",
-    "screenshot",
+    "snapshot",
     "snapshot",
     "media"
   ],
   "author": "Olivier Wietrich <olivier.wietrich@gmail.com> (http://github.com/bredele)",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/bredele/screen/issues"
+    "url": "https://github.com/bredele/snap/issues"
   },
-  "homepage": "https://github.com/bredele/screen"
+  "homepage": "https://github.com/bredele/snap"
 }

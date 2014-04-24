@@ -1,0 +1,29 @@
+<!doctype html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Snapshot</title>
+</head>
+<body>
+	<video autoplay></video>
+	<img src="" alt="" width="640" height="480">
+<!-- 	<button>button</button> -->
+	<script src="../build/build.js"></script>
+	<script>
+	  var media = require('media');
+	  var snap = require('snap');
+	  var video = document.querySelector('video');
+
+
+	  media({audio:false}, function(stream, url) {
+	  	video.src = url;
+	  	setTimeout(function() {
+	  		setInterval(function() {
+	  			document.querySelector('img').src = snap(video);
+	  		}, 500);
+	  	}, 5000);
+	  });
+
+	</script>
+</body>
+</html>
